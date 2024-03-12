@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "FY65dNoGfP/jZXMXpZQIIvdGo+qqd5xKUCRDTw55YSn0o1D5x+u9h7ktmzGX74qeYVUAgnftTs6lnBslSvmRLw==",
+  "dgSpecHash": "GoccNYswm6OAWiefgep9OHjn9cAPbQBl7GV4ftZ66/HgrGahFrqIm+wpYMo+p0zt0D6axuWSPd4AdLzXNQkzgA==",
   "success": true,
   "projectFilePath": "/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Application/Notes.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.entityframeworkcore/8.0.2/microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.2/microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.2/microsoft.entityframeworkcore.analyzers.8.0.2.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
