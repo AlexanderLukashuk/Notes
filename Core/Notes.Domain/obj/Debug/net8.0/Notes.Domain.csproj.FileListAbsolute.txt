@@ -1,0 +1,12 @@
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/bin/Debug/net8.0/Notes.Domain.deps.json
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/bin/Debug/net8.0/Notes.Domain.dll
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/bin/Debug/net8.0/Notes.Domain.pdb
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/obj/Debug/net8.0/Notes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/obj/Debug/net8.0/Notes.Domain.AssemblyInfoInputs.cache
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/obj/Debug/net8.0/Notes.Domain.AssemblyInfo.cs
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/obj/Debug/net8.0/Notes.Domain.csproj.CoreCompileInputs.cache
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/obj/Debug/net8.0/Notes.Domain.sourcelink.json
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/obj/Debug/net8.0/Notes.Domain.dll
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/obj/Debug/net8.0/refint/Notes.Domain.dll
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/obj/Debug/net8.0/Notes.Domain.pdb
+/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Core/Notes.Domain/obj/Debug/net8.0/ref/Notes.Domain.dll
