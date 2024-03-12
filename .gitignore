@@ -1,0 +1,11 @@
+Core/Notes.Application/bin
+Core/Notes.Application/obj
+
+Core/Notes.Domain/bin
+Core/Notes.Domain/obj
+
+Infrastructure/Notes.Infrastructure/bin
+Infrastructure/Notes.Infrastructure/obj
+
+Presentation/Notes.WebApi/bin
+Presentation/Notes.WebApi/obj
