@@ -4,22 +4,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Notes.Application.Interfaces;
 
 namespace Notes.Infrastructure
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddPersistence(this IServiceCollection services, string connectionString)
+        public static void AddPersistence(this IHostApplicationBuilder builder)
         {
-            services.AddDbContext<NotesDbContext>(options =>
+            builder.Services.AddDbContext<NotesDbContext>(options =>
             {
-                options.UseSqlite(connectionString ?? throw new Exception("Connection string not found"));
+                options.UseSqlite(builder.Configuration.GetConnectionString("AuthContex_Test") ?? throw new Exception("Test connection string not found"));
             });
-            services.AddScoped<INotesDbContext>(provider => provider.GetService<NotesDbContext>());
 
-            return services;
+            builder.Services.AddScoped<INotesDbContext>(provider => provider.GetService<NotesDbContext>());
         }
     }
 }

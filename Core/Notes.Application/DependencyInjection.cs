@@ -1,15 +1,15 @@
 using System.Reflection;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace Notes.Application
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddApplication(this IServiceCollection services)
+        public static void AddApplication(this IHostApplicationBuilder builder)
         {
-            services.AddMediatR(Assembly.GetExecutingAssembly());
-            return services;
+            builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
         }
     }
 }
