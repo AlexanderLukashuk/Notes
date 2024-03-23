@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WIhqXILI6p2ftVf6tXPhWkSTIvOAi3/Vegh/TvbGbiZ2gU9ik86SWqQMHJyotxuJy5KNtRFauYYxSmnucPytbQ==",
+  "dgSpecHash": "qTbaI6+okMjeQUgsddVsW6x1p57a0Dj9IwfgnyA4hUqL5uumOGG98UL5wEXXwKx8oJ8la/lWaHmVQtuEf/fUkQ==",
   "success": true,
   "projectFilePath": "/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Infrastructure/Notes.Infrastructure/Notes.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/aleksandrlukasuk/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.0/fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
