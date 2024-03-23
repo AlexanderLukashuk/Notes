@@ -1,9 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Notes.Application.Interfaces;
 
 namespace Notes.Application.Notes.Queries.GetNoteList
@@ -16,9 +14,14 @@ namespace Notes.Application.Notes.Queries.GetNoteList
         public GetNoteListQueryHandler(INotesDbContext dbContext, IMapper mapper) =>
             (_dbContext, _mapper) = (dbContext, mapper);
 
-        public Task<NoteListVm> Handle(GetNoteListQuery request, CancellationToken cancellationToken)
+        public async Task<NoteListVm> Handle(GetNoteListQuery request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var notesQuery = await _dbContext.Notes
+                .Where(note => note.UserId == request.UserId)
+                .ProjectTo<NoteLookupDto>(_mapper.ConfigurationProvider)
+                .ToListAsync(cancellationToken);
+
+            return new NoteListVm { Notes = notesQuery };
         }
     }
 }
