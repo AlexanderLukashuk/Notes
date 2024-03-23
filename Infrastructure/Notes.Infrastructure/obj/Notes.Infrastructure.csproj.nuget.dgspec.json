@@ -51,6 +51,14 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -179,7 +187,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
