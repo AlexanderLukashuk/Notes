@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.AddPersistence();
 builder.AddApplication();
+builder.Services.AddControllers();
 
 builder.Services.AddAutoMapper(config =>
 {
