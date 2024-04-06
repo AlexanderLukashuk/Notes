@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qTbaI6+okMjeQUgsddVsW6x1p57a0Dj9IwfgnyA4hUqL5uumOGG98UL5wEXXwKx8oJ8la/lWaHmVQtuEf/fUkQ==",
+  "dgSpecHash": "LhCMlwgoU2ujcuZkIm1ajrX0xaN/P4QaxhoNnVbIfQ9vk/PMFqC0PTwsSjUBM8zBuyD2ifwPyq4ZCqCY0HRiCQ==",
   "success": true,
   "projectFilePath": "/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Infrastructure/Notes.Infrastructure/Notes.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,6 @@
     "/Users/aleksandrlukasuk/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.0/fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/Users/aleksandrlukasuk/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/microsoft.data.sqlite.core/8.0.3/microsoft.data.sqlite.core.8.0.3.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/microsoft.entityframeworkcore/8.0.3/microsoft.entityframeworkcore.8.0.3.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.3/microsoft.entityframeworkcore.abstractions.8.0.3.nupkg.sha512",
@@ -57,16 +56,5 @@
     "/Users/aleksandrlukasuk/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
-      "libraryId": "MediatR",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
