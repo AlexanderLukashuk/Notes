@@ -11,7 +11,8 @@ namespace Notes.Application
     {
         public static void AddApplication(this IHostApplicationBuilder builder)
         {
-            builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+            // builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
             builder.Services
                 .AddValidatorsFromAssemblies(new[] { Assembly.GetExecutingAssembly() });
             builder.Services.AddTransient(typeof(IPipelineBehavior<,>),
