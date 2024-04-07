@@ -12,3 +12,6 @@ Presentation/Notes.WebApi/obj
 
 Identity/Notes.Identity/bin
 Identity/Notes.Identity/obj
+
+Notes.Tests/bin
+Notes.Tests/obj
