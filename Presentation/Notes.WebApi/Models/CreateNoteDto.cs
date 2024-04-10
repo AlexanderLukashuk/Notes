@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
@@ -11,6 +12,7 @@ namespace Notes.WebApi.Models
 {
     public class CreateNoteDto : IMapWith<CreateNoteCommand>
     {
+        [Required]
         public string Title { get; set; }
         public string Details { get; set; }
 
