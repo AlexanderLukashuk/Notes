@@ -8,6 +8,9 @@ using Notes.Application.Interfaces;
 using Notes.Infrastructure;
 using Notes.WebApi;
 using Notes.WebApi.Middleware;
+using Notes.WebApi.Services;
+using Serilog;
+using Serilog.Events;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -64,7 +67,17 @@ builder.Services.AddApiVersioning();
 
 builder.Services.AddMvc();
 
+builder.Services.AddSingleton<ICurrentUserService, CurrentUserService>();
+builder.Services.AddHttpContextAccessor();
+builder.Host.UseSerilog(); // SERILOG LIBO ETO
+
 var app = builder.Build();
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+    .WriteTo.File("NotesWebApiLog-.txt", rollingInterval:
+        RollingInterval.Day)
+    .CreateLogger();
 
 using (var scope = app.Services.CreateScope())
 {
@@ -76,7 +89,7 @@ using (var scope = app.Services.CreateScope())
     }
     catch (Exception exception)
     {
-
+        Log.Fatal(exception, "An error occured while app initialization");
     }
 }
 
@@ -95,6 +108,7 @@ app.UseSwaggerUI(config =>
     // config.RoutePrefix = string.Empty;
     // config.SwaggerEndpoint("swagger/v1/swagger.json", "Notes API");
 });
+app.UseSerilogRequestLogging(); // SERILOG LIBO ETO
 app.UseRouting();
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");
