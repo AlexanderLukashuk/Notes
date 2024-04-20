@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LhCMlwgoU2ujcuZkIm1ajrX0xaN/P4QaxhoNnVbIfQ9vk/PMFqC0PTwsSjUBM8zBuyD2ifwPyq4ZCqCY0HRiCQ==",
+  "dgSpecHash": "TcDZh8KZHaVyPHp75lsEgR1plKujuKWwK3xI8+axObtG1BexWrrlOBkD//k0DyDv5fZmBFQw8hhme/0zAlLX+g==",
   "success": true,
   "projectFilePath": "/Users/aleksandrlukasuk/csharp_study/Projects/Notes/Infrastructure/Notes.Infrastructure/Notes.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,8 @@
     "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
+    "/Users/aleksandrlukasuk/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
     "/Users/aleksandrlukasuk/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
