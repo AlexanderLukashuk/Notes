@@ -1,9 +1,9 @@
 @model RegisterViewModel
 <head>
-    <link rel="stylesheet" href=@Url.Content("~/styles/app.css") type="text/css">
+    <link href=@Url.Content("~/styles/app.css") rel="stylesheet" type="text/css"/>
 </head>
 <form asp-controller="Auth" asp-action="Register" method="post">
-    <input type="hidden" asp-for="ReturnUrl">
+    <input type="hidden" asp-for="ReturnUrl" />
     <div class="header">Sign Up</div>
     <div class="block">
         <label>Username</label>
