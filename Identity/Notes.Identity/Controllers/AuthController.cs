@@ -60,7 +60,7 @@ namespace Notes.Identity.Controllers
             {
                 ReturnUrl = returnUrl
             };
-            return View(returnUrl);
+            return View(viewModel);
         }
 
         [HttpPost]
