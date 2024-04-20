@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Asp.Versioning;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -14,9 +15,12 @@ using Notes.WebApi.Models;
 
 namespace Notes.WebApi.Controllers
 {
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
+    // [ApiVersionNeutral]
     [Produces("application/json")]
-    [ApiController]
-    [Route("api/[controller]")]
+    // [ApiController]
+    [Route("api/{version:apiVersion}/[controller]")]
     public class NoteController : BaseController
     {
         private readonly IMapper _mapper;
